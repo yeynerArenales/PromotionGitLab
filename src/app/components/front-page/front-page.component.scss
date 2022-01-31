@@ -1,0 +1,90 @@
+.Container{
+    color: #333333;
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Description{
+    width: 350px;
+    h1{
+        font-size: 55px;
+        font-weight: 600;
+        text-align: left;
+    }
+}
+
+.Logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ContainerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        margin: 20px;
+    }
+}
+
+.RightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.Card{
+    text-align: center;
+    margin-top: 50px;
+
+    svg{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.ContainerButtons{
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    a{
+        margin: 20px;
+    }
+}
+
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a{
+        margin: 20px;
+    }
+}
